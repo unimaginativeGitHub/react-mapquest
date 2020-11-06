@@ -137,7 +137,7 @@ class MapQuest extends Component {
                 interactive: true,
             }
         }, () => {
-            console.log('god damn what a rush!');
+            console.log('test test test callback');
         }).addTo(mapInstance);
 
         // const directionsLayer = leaflet.mapquest.directionsLayer({
@@ -148,6 +148,8 @@ class MapQuest extends Component {
         //     console.log('New Directions');
         //     console.log(eventResponse);
         // });
+
+        // For direction data - check the cache?!?
     }
 }
 
